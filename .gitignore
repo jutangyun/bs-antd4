@@ -7,3 +7,5 @@ npm-debug.log
 /bundleOutput/
 /.cache/
 /.history/
+/dist/*
+*.js

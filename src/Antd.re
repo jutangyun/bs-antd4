@@ -7,6 +7,14 @@ let optBoolToOptJsBoolean =
 let unwrapBool = (v) => Js.Undefined.from_opt @@ optBoolToOptJsBoolean(v);
 
 module Form = Antd_Form;
+module Avatar = Antd_Avatar;
+module Badge = Antd_Badge;
+module Breadcrumb = Antd_Breadcrumb;
+module Timeline = Antd_Timeline;
+module Icon = Antd_Icon;
+module Statistic = Antd_Statistic;
+module Tree = Antd_Tree;
+module Modal = Antd_Modal;
 
 
 module Message = {

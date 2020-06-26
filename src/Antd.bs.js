@@ -70,9 +70,33 @@ var Button = { };
 
 var Form;
 
+var Avatar;
+
+var Badge;
+
+var Breadcrumb;
+
+var Timeline;
+
+var Icon;
+
+var Statistic;
+
+var Tree;
+
+var Modal;
+
 exports.optBoolToOptJsBoolean = optBoolToOptJsBoolean;
 exports.unwrapBool = unwrapBool;
 exports.Form = Form;
+exports.Avatar = Avatar;
+exports.Badge = Badge;
+exports.Breadcrumb = Breadcrumb;
+exports.Timeline = Timeline;
+exports.Icon = Icon;
+exports.Statistic = Statistic;
+exports.Tree = Tree;
+exports.Modal = Modal;
 exports.Message = Message;
 exports.Notify = Notify;
 exports.Row = Row;
