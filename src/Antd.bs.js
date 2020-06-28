@@ -86,6 +86,16 @@ var Tree;
 
 var Modal;
 
+var Card;
+
+var DatePicker;
+
+var Result;
+
+var AutoComplete;
+
+var Cascader;
+
 exports.optBoolToOptJsBoolean = optBoolToOptJsBoolean;
 exports.unwrapBool = unwrapBool;
 exports.Form = Form;
@@ -97,6 +107,11 @@ exports.Icon = Icon;
 exports.Statistic = Statistic;
 exports.Tree = Tree;
 exports.Modal = Modal;
+exports.Card = Card;
+exports.DatePicker = DatePicker;
+exports.Result = Result;
+exports.AutoComplete = AutoComplete;
+exports.Cascader = Cascader;
 exports.Message = Message;
 exports.Notify = Notify;
 exports.Row = Row;

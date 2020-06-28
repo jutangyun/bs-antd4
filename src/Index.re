@@ -31,6 +31,6 @@ let makeContainer = text => {
 ReactDOMRe.render(
   <App/>
    ,
-  makeContainer("Blinking Greeting"),
+  makeContainer("ReasonML Antd4 Sample"),
 );
 

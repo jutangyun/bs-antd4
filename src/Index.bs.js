@@ -25,7 +25,7 @@ function makeContainer(text) {
   return content;
 }
 
-ReactDom.render(React.createElement(App$ReasonReactExamples.make, { }), makeContainer("Blinking Greeting"));
+ReactDom.render(React.createElement(App$ReasonReactExamples.make, { }), makeContainer("ReasonML Antd4 Sample"));
 
 exports.style = style;
 exports.makeContainer = makeContainer;

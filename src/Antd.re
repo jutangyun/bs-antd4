@@ -15,6 +15,11 @@ module Icon = Antd_Icon;
 module Statistic = Antd_Statistic;
 module Tree = Antd_Tree;
 module Modal = Antd_Modal;
+module Card = Antd_Card;
+module DatePicker = Antd_DatePicker;
+module Result = Antd_Result;
+module AutoComplete = Antd_AutoComplete;
+module Cascader = Antd_Cascader;
 
 
 module Message = {
@@ -101,7 +106,8 @@ module Input = {
       ~placeholder: string=?,
       ~onChange: ReactEvent.Form.t => unit=?,
     //   ~onPressEnter: unit => unit,
-      ~value: string=?
+      ~value: string=?,
+      ~_type:string=?
     //   ~prefix: 'a
     ) =>
     React.element =
